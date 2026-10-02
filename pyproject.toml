@@ -1,0 +1,10 @@
+[project]
+name = "dig-in"
+version = "0.1.0"
+description = "Tiny DIG-IN slice: Gibbs-trained any-order sampler on a 2x2 open Ising lattice."
+requires-python = ">=3.11"
+dependencies = ["jax", "optax", "numpy"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
